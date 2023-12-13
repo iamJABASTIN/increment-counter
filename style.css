@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: powderblue;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+    height: 100vh;
+    margin:0;
+    gap: 40px;
+}
+
+.counter-container {
+    color: crimson;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+@media (max-width : 580px){
+    body{
+        flex-direction:column;
+    }
+}
